@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>akkiw3b | Home</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Connect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Image Slider -->
+    <div id="slides" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#slides"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slides"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#slides"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/background.png"
+            class="d-block w-100"
+            alt="background"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="display-2">Bootstrap</h1>
+            <h3>Complete Website Layout</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              VIEW DEMO
+            </button>
+            <button type="button" class="btn btn-primary btn-lg">
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/background2.png"
+            class="d-block w-100"
+            alt="background2."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/background3.png"
+            class="d-block w-100"
+            alt="background3"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slides"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slides"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="container-fluid py-5 bg-light border border-light">
+      <div class="row Jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 cl-lg-9 col-xl-10">
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facere
+            ex ratione, incidunt temporibus laudantium enim numquam beatae?.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 cl-lg-3 col-xl-2">
+          <a href="#"
+            ><button class="btn btn-outline-secondary btn-lg" type="button">
+              Web Hosting
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Welcome Section -->
+    <div class="conatiner-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Built with ease.</h1>
+        </div>
+        <hr />
+        <div class="col-12">
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum optio
+            sunt sint facere labore, nobis vitae corporis consequatur delectus
+            neque iusto doloribus laudantium quasi necessitatibus!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Three Column Section -->
+    <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-code"></i>
+          <h3>HTML5</h3>
+          <p>Built with the latest version of HTML, HTML5</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-bold"></i>
+          <h3>BOOTSTRAP</h3>
+          <p>Built with the latest version of Bootstrap, Bootstrap 5</p>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <i class="fab fa-css3"></i>
+          <h3>HTML5</h3>
+          <p>Built with the latest version of css, css3</p>
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+
+    <!-- Two colum secction -->
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-lg-6">
+          <h2>If you build it...</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            repellat aliquid voluptatibus amet veritatis officia.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+            asperiores vitae veniam eaque dicta delectus ut fuga odit! Similique
+            rem laudantium praesentium hic voluptatibus consequatur pariatur
+            repudiandae optio adipisci sed?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            alias accusantium quia natus id quis.
+          </p>
+          <br />
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+        <div class="col-lg-6 mt-1">
+          <img src="img/desk.png" class="img-fluid" alt="desk" />
+        </div>
+      </div>
+    </div>
+    <hr class="my-4" />
+    <!-- Fixed background -->
+    <figure>
+      <div class="fixed-wrap">
+        <div id="fixed"></div>
+      </div>
+    </figure>
+    <!-- Emoji section -->
+    <button class="fun" data-bs-toggle="collapse" data-bs-target="#emoji">
+      click for fun
+    </button>
+    <div id="emoji" class="collapse">
+      <div class="conatiner-fluid padding">
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-3">
+            <img class="gif" src="img/gif/panda.gif" alt="panda" />
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img class="gif" src="img/gif/unicorn.gif" alt="unicorn" />
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img class="gif" src="img/gif/poo.gif" alt="poo" />
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img class="gif" src="img/gif/chicken.gif" alt="chcl" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Meet the team -->
+    <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Meet the Team</h1>
+        </div>
+        <hr />
+      </div>
+    </div>
+    <!-- card section -->
+    <div class="conatiner-fluid padding">
+      <div class="row padding">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/team2.png" alt="team2" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Mary Jo</h4>
+              <p class="card-text">
+                Mary is Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Minima ut fugit perspiciatis!
+              </p>
+              <a href="#" class="btn btn-outline-secondary">See Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/team1.png" alt="team1" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">Go Philips</h4>
+              <p class="card-text">
+                Philips is Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Odit, totam inventore?
+              </p>
+              <a href="#" class="btn btn-outline-secondary">See Profile</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/team3.png" alt="team3" class="card-img-top" />
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">
+                John is Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Cumque, aliquam.
+              </p>
+              <a href="#" class="btn btn-outline-secondary">See Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Two column section -->
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-lg-6">
+          <h2>Our Philosophy</h2>
+          <p>
+            We know that Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Quos repellat aliquid voluptatibus amet veritatis officia.
+          </p>
+          <p>
+            We approach every challenge as Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Consectetur fuga ipsum voluptatem
+            eveniet accusantium, minus dolor porro doloribus ipsa, harum labore
+            assumenda ea quae quisquam?
+          </p>
+          <br />
+        </div>
+        <div class="col-lg-6 mt-1">
+          <img src="img/bootstrap2.png" class="img-fluid" alt="desk" />
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+
+    <!-- connect section -->
+    <div class="container-fluid padding">
+      <div class="row text-padding text-center">
+        <div class="col-12">
+          <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img src="img/w3newbie.png" alt="w3newbie" />
+            <hr class="light" />
+            <p>333-333-333</p>
+            <p>myemail@gmail.com</p>
+            <p>200 Mira Road</p>
+            <p>Nagpur, Maharashtra, 440000</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Our Hours</h5>
+            <hr class="light" />
+            <p>Monday: 9am - 5pm</p>
+            <p>Saturday: 10am - 4pm</p>
+            <p>Sunday: Closed</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Service Area</h5>
+            <hr class="light" />
+            <p>Pune, Maharashtra, 410002</p>
+            <p>Hyderabad, Telangana, 530202</p>
+            <p>Bangalore, Karnataka, 631003</p>
+            <p>Nagpur,Maharashtra,440000</p>
+          </div>
+          <div class="col-12">
+            <hr class="light-100" />
+            <h5>&copy; akkiw3b.com</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
